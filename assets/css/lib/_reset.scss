@@ -51,9 +51,12 @@ body {
   margin: 0;
 }
 
+a,
 a:active,
 a:hover {
   outline: 0;
+  text-decoration: none;
+  color: inherit;
 }
 
 b,
@@ -67,4 +70,16 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
+}
+
+button,
+input,
+input:active,
+input:checked,
+input:focus {
+  background: none;
+  outline: none;
+  text-decoration: none;
+  box-shadow: none;
+  border: none;
 }
