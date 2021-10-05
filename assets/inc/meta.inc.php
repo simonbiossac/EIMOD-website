@@ -12,30 +12,3 @@
 	<meta name='language' content='en'>
 	<meta name="keywords" lang="fr" content="Everything is made of dot. , dot, French chlothing brand, Marque de sappe, Unisex clothing, simply design, minimalist design, petit bonhomme">
 	<link rel="icon" type="image/png" href="./assets/src/logo.png" />
-
-	<link rel="stylesheet" href="./assets/css/master.min.css">
-	<title>Everything is made of dot.</title>
-</head>
-
-<body class="background background-small">
-	<header class="onepage">
-		<div class="header-brand">
-			<h2>Confirm Account</h2>
-		</div>
-		<a href="#">
-			<img class="icon" src="./assets/src/icon/close.svg" alt="account close">
-		</a>
-	</header>
-
-	<section class="confirm">
-		<div class="confirm-explain">
-			<p>Please confirm your account to continue</p>
-			<span>You’ve receive an email, click on the link to validate your account.</span>
-		</div>
-		<a href="./login.html" class="button black">Login</a>
-
-	</section>
-
-</body>
-
-</html>

@@ -83,8 +83,9 @@
   border: none;
 }
 
-.product-size input[data-stock="0"]:checked ~ button {
+.product-size input[data-stock="0"]:checked ~ a {
   background: $darkGrey;
+  content: "Sold Out";
 }
 
 .order {

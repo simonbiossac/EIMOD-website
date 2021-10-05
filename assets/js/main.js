@@ -1,20 +1,3 @@
-// // When the user scrolls the page, execute myFunction
-// window.onscroll = function() {myFunction()};
-//
-// // Get the navbar
-// var navbar = document.getElementById("navbar");
-//
-// // Get the offset position of the navbar
-// var sticky = navbar.offsetTop;
-//
-// // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-// function myFunction() {
-//   if (window.pageYOffset >= sticky) {
-//     navbar.classList.remove("sticky")
-//   } else {
-//     navbar.classList.add("sticky");
-//   }
-// }
 
 var modal = document.querySelector(".order");
 var openModal = document.querySelector("#buyItem");
@@ -36,3 +19,23 @@ window.addEventListener("click", function(event){
     modal.style.display = "none";
   }
 })
+
+
+//Bottom product buy
+
+var sizeInput = document.querySelectorAll(".product-size [name='size']");
+var orderButton = document.querySelector("#orderItem");
+var orderButtonLink = document.querySelector("#orderItem").href;
+
+
+sizeInput.forEach(function(input) {
+    input.addEventListener("click", function() {
+        if (input.getAttribute('data-stock') == 0) {
+          orderButton.textContent = "Sold Out";
+          orderButton.href = "javascript:void(0)";
+        }else {
+          orderButton.textContent = "Order now";
+          orderButton.href = orderButtonLink;
+        }
+    },true);
+});
