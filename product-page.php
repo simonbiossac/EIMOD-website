@@ -41,6 +41,7 @@
 			<label for="size3">L</label>
 			<input type="radio" id="size4" name="size" value="XL" data-stock="5">
 			<label for="size4">XL</label>
+			<input type="hidden" value="selectedsize">
 			<button class="closeModal button light">Back</button>
 			<a href="./order.php" id="orderItem" class="button black" type="submit">Order now</a>
 		</div>

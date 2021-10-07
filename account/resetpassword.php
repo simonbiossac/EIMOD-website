@@ -16,7 +16,7 @@
 
 	<form class="form" action="./" method="post">
 		<label for="email">Account Email</label>
-		<input type="text" name="email" value="" autocomplete="email" autofocus required>
+		<input type="email" name="email" value="" autocomplete="email" autofocus required>
 		<p class="product-details-item">Reset link will be send to your account email.</p>
 		<div class="form-cta">
 			<button class="button black" type="submit">Reset</button>

@@ -15,6 +15,7 @@
 
 	<section class="confirm">
 		<div class="confirm-explain">
+			<h2>#1234</h2>
 			<p>Your order has been succesfully send.</p>
 			<span>You will receive an email when your order is accepted from our part. Thanks you so much for the supports. dotfibonnaci</span>
 		</div>

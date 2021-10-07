@@ -16,9 +16,9 @@
 
 	<form class="form" action="./" method="post">
 		<label for="email">Email</label>
-		<input type="text" name="email" value="" autocomplete="email" autofocus required>
+		<input type="email" name="email" value="" autocomplete="email" autofocus required>
 		<label for="password">Password</label>
-		<input type="text" name="password" value="" autocomplete="new-password" required>
+		<input type="password" name="password" value="" autocomplete="new-password" required>
 		<a href="./resetpassword.php">Reset my password ?</a>
 
 		<div class="form-cta">

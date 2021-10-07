@@ -20,9 +20,9 @@
 		<label for="secondName">Second name</label>
 		<input type="text" name="secondName" value="" autocomplete="family-name" required>
 		<label for="email">Email</label>
-		<input type="text" name="email" value="" autocomplete="email" required>
+		<input type="email" name="email" value="" autocomplete="email" required>
 		<label for="password">Create a password</label>
-		<input type="text" name="password" value="" autocomplete="new-password" required>
+		<input type="password" name="password" value="" autocomplete="new-password" required>
 
 		<div class="form-terms">
 			<input type="checkbox" name="terms" required>

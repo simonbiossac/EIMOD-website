@@ -26,10 +26,12 @@ window.addEventListener("click", function(event){
 var sizeInput = document.querySelectorAll(".product-size [name='size']");
 var orderButton = document.querySelector("#orderItem");
 var orderButtonLink = document.querySelector("#orderItem").href;
+var selectedsize = document.querySelector("input[type='hidden']");
 
 
 sizeInput.forEach(function(input) {
     input.addEventListener("click", function() {
+        selectedsize.setAttribute('value', `${input.value}`)
         if (input.getAttribute('data-stock') == 0) {
           orderButton.textContent = "Sold Out";
           orderButton.href = "javascript:void(0)";

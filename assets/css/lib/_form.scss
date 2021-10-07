@@ -3,8 +3,7 @@
   display: flex;
   flex-direction: column;
 
-  & input[type="text"],
-  & input[type="number"] {
+  & input {
     width: 100%;
     border: 2px $lightGrey solid;
     border-radius: 12px;
@@ -48,7 +47,9 @@
     @include font($font : $font--p, $color : $black, $size : 13px, $stroke : 0.25px);
 
     & ~ input[type="text"],
-    & ~ input[type="number"] {
+    & ~ input[type="number"],
+    & ~ input[type="email"],
+    & ~ input[type="password"] {
       margin-top:: 8px;
     }
 

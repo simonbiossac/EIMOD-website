@@ -7,6 +7,7 @@
 @import "./lib/_form.scss";
 @import "./lib/_footer.scss";
 @import "./lib/_header.scss";
+@import "./lib/_order.scss";
 
 body {
 	scroll-behavior: smooth;
@@ -280,7 +281,7 @@ body .buybutton {
 //product page
 /* Style the navbar */
 @media screen and (min-width:$mobile) {
-	body {
-		background: red;
-	}
+	// body {
+	// 	background: red;
+	// }
 }
